@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+}
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overflow-y: "scroll";
+    height: "70vh"
+  }
+.container, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    text-align: center;
+}
+
+.submitBtn{
+    color: white;
+    background-color: blueviolet;
+    padding: 8px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 2px 2px black;
+    
+}
