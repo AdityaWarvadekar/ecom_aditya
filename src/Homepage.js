@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./Homepage.css";
 
 const HomePage = () => {
-  const host = "http://localhost:5000";
+  const host = process.env.HOST;
   const [prodList, setProdList] = useState([]);
   const[username, setUsername] = useState("");
   const [transactions, setTransactions] = useState([]);
