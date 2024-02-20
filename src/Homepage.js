@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./Homepage.css";
 
 const HomePage = () => {
-  const host = process.env.PORT;
+  const host = "https://ecom-api-1djn.onrender.com";
   const [prodList, setProdList] = useState([]);
   const[username, setUsername] = useState("");
   const [transactions, setTransactions] = useState([]);
